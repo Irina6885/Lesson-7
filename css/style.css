@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+@font-face {
+    font-family: "Lato";
+    src: url(../fonts/Lato-Bold.woff2) format(woff2) url(../fonts/Lato-Bold.woff) format(woff);
+    font-display: swap;
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Lato";
+    src: url(../fonts/Lato-Regular.woff2) format(woff2) url(../fonts/Lato-Regular.woff) format(woff);
+    font-display: swap;
+    font-weight: 400;
+    font-style: normal;
+}
+.color-image {
+    font-family: 'Lato';
+    font-size: 25px;
+    font-weight: 400;
+    max-width: 1000px;
+    height: 300px;
+    margin: 20px;
+    padding: 15px;
+    background-color: aquamarine;
+    background-image: url("../img/buket-legendy-oseny-270x300.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+.image-two {
+    font-family: 'Lato';
+    font-size: 15px;
+    font-weight: 700;
+    max-width: 560px;
+    height: 280px;
+    margin: 0 auto;
+    padding: 10px;
+    margin-bottom: 50px;
+    background: url(../img/thumb_6122bb4f0e42a.jpg) no-repeat right ,url("../img/buket-legendy-oseny-270x300.jpg") no-repeat 0 0 / 150px ,rgba(224, 107, 107, 0.377)
+}
+.image-three {
+    font-family: 'Lato';
+    font-size: 15px;
+    font-weight: 400;
+    max-width: 700px;
+    height: 200px;
+    overflow: auto;
+    background-color: #0ef3d44b;
+    background-image: url("../img/thumb_6122bb4f0e42a.jpg");
+    background-size: cover;
+}
